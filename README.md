@@ -1,2 +1,2 @@
 # Baekjoon-Algorithm
-Baekjoon Online Judge Problem Solving
+[Baekjoon-Online-Judge] Problem Solving
