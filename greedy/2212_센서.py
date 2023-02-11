@@ -9,6 +9,7 @@ diff = []
 
 if K >= N: # 센서 개수보다 집중국 개수가 많을 시에는 집중국을 센서에다가 설치하면 되므로 0이 된다.
     print(0)
+    sys.exit() # 밑에 print(sum(diff))가 있기 때문에 즉시 중단시킨다.
 else:  # 적을 시에는 구역을 K개로 나눠준다.
     for i in range(1, N):
         diff.append(censor[i] - censor[i-1])
